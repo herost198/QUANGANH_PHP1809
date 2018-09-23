@@ -48,7 +48,8 @@ học cách sử dụng GIT-GITHUB bằng các câu lệnh
    
    4. git config --global credential.helper "cache --timeout=18000" : lưu thông tin đăng nhập trong khoảng 5h
    
-   5.
+   5. sao khong kd
+   
    
    
    
