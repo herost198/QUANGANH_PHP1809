@@ -46,9 +46,11 @@ học cách sử dụng GIT-GITHUB bằng các câu lệnh
    
    3. git push : push lên server(GITHUB)
    
-   4. git config --global credential.helper "cache --timeout=18000" : lưu thông tin đăng nhập trong khoảng 5h
+   4. git config --global credential.helper wincred : đăng nhập 1 lần khi sủ dụng
    
-   5. 
+   5. git config --global -e : xem file lưu mật khẩu
+   
+   6. git clone <link cần down> : clone về máy
    
    
    
