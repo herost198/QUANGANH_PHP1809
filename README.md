@@ -40,12 +40,13 @@ học cách sử dụng GIT-GITHUB bằng các câu lệnh
    
                             ----- GIT HUB -------
    -  tạo Repository
-   1. git remote add origin <link Repository>
+   1. git remote add <tên tùy í> <link Repository>
    
    2. git push -u origin master : cho lần đầu sử dụng
    
    3. git push : push lên server(GITHUB)
    
+   4. git config --global credential.helper "cache --timeout=18000" : lưu thông tin đăng nhập trong khoảng 5h
    
    
    
