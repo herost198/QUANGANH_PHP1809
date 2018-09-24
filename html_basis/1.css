@@ -1,0 +1,29 @@
+*{
+	padding: 0;margin:0;
+}
+.to{
+	width: 340px;
+	height: 220px;
+	border: 1px solid red;
+	padding: 10px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	text-decoration: underline;
+}
+a h2{
+	font-size: 14px;
+	font-family: tahoma;
+}
+a img{
+	width: 160px;
+	height: 130px;
+	float: left;	
+	margin-right: 10px;
+}
+.tinnho {
+	margin-top: 20px;
+}
