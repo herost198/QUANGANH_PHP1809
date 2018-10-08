@@ -1,0 +1,13 @@
+img{
+    position: fixed; 
+    top: 0px;
+    left: 0;
+
+}
+.relative{
+    background: red;
+    width: 500px;
+    height: 500px;
+    margin:auto;
+    position: relative;
+}

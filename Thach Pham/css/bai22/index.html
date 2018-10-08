@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Framework</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <style>
+        #container {
+            background: red;
+            padding: 1px;
+        }
+        #col1 { background: yellow}
+        #col2 { background: blue}
+        #col3 { background: green}
+        .col {
+            background: silver;
+            border-right: 1px solid;
+        }
+        * {
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+<div class="pure-g" id="container">
+    <div class="pure-u-2-5 col" id="col1"><p>Thirds</p></div>
+    <div class="pure-u-1-5 col" id="col2"><p>Thirds</p></div>
+    <div class="pure-u-2-5 col" id="col3"><p>Thirds</p></div>
+</div>
+</body>
+</html>

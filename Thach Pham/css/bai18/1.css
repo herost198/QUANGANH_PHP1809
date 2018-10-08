@@ -1,0 +1,19 @@
+a{
+    color:red;
+    text-decoration: none;
+}
+/* a:hover{
+    color:green;
+    font-weight: bold;
+    font-size:20px;
+    background: black; 
+} */
+a:visited{
+    color: purple;
+}
+a:link{
+    color: blue;
+}
+a:active{
+    background: yellow;
+}
