@@ -1,0 +1,46 @@
+.icon-bar{
+    width: 100%;
+    background: #555;
+    overflow: auto;
+}
+.icon-bar a{
+    float: left;
+    text-align: center;
+    padding: 16px 0;
+    width: 20%;
+    transition: all 0.3s ease;
+    color:white;
+    font-size: 36px;
+}
+.icon-bar a:hover{
+    background: #000;
+}
+.active{
+    background: #4CAF50;
+}
+
+.menuW3School{
+    background: #5f5f5f;
+    margin-top: 20px;
+    width: 100%;
+    overflow:auto;
+    height: 44px;
+}
+.menuW3School a{
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 20px;
+    color: white;
+    padding: 12px;
+    float: left;
+}
+.phai{
+    float: right;
+}
+.menuW3School a:hover{
+    
+}
+.active1{
+    background: #4CAF50;
+}
